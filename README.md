@@ -4,6 +4,12 @@ A rainmeter skin that will automatically switch to a specific layout on resoluti
 
 So far I only found a tool named [RainRez](https://forum.rainmeter.net/viewtopic.php?t=10471) that offers similar functionality, but it only checks the default monitor's resolution, and requires running a separate .exe file, therefore I decided to make my own...
 
+## Demo
+
+As shown, the skin will automatically switch to 3 different layouts based on the connected display resolutions.
+
+https://github.com/user-attachments/assets/656fe6ce-43f9-4bd4-a699-9d300eef3a3b
+
 ## Installation
 
 1. Download the `.rmskin` file from the [Releases](https://github.com/JoeSiu/RainMeterAutoLayout/releases/latest) section.
@@ -12,8 +18,10 @@ So far I only found a tool named [RainRez](https://forum.rainmeter.net/viewtopic
 ## Usage
 
 1. To utilize AutoLayout, you must first load the `AutoLayout/Main.ini` for each layout you want to switch to, and then save the layout.
-2. Edit the configuration files located at `~YourRainMeterSkinFolder\AutoLayout\@Resources\Variables.inc`, specifically the `LayoutMap` variable.
-3. The skin will monitor any resolution changes, and auto switch to the associated layout in ``LayoutMap`` if provided.
+   ![image](https://github.com/user-attachments/assets/ac7bc74c-6ff8-4642-8001-4986009dc0a3)
+   ![image](https://github.com/user-attachments/assets/9c6a749a-fb40-4d93-bb2f-1dafdb9c45d2)
+3. Edit the configuration files located at `~YourRainMeterSkinFolder\AutoLayout\@Resources\Variables.inc`, specifically the `LayoutMap` variable.
+4. The skin will monitor any resolution changes, and auto switch to the associated layout in ``LayoutMap`` if provided.
 
 ### Configs
 
