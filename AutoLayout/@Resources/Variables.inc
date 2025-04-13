@@ -11,6 +11,6 @@ EnableDefaultLayout=0
 DefaultLayout="DefaultLayout"
 ; Associates resolutions with layouts
 ; Format: {virtual screen width}x{virtual screen height}={layout name}, separated by LayoutMapDelimiter
-LayoutMap="4480x1440=Layout1|2560x1440=Layout2|1920x1080=Layout3|"
+LayoutMap="4480x1440=Layout 1|2560x1440=Layout 2|1920x1080=Layout 3"
 ; The delimiter used in LayoutMap
 LayoutMapDelimiter="|"
