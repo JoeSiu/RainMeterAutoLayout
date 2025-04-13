@@ -8,7 +8,7 @@ function Initialize()
 
    -- Convert LayoutMap string to table
    layoutMap = {}
-   for k, v in string.gmatch(layoutMapStr, "(%d+x%d+)=(%w+)" .. layoutMapDelimiter) do
+   for k, v in string.gmatch(layoutMapStr, "(%d+x%d+)=([^" .. layoutMapDelimiter .. "]+)") do
       layoutMap[k] = v
    end
 
